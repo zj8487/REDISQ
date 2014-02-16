@@ -1,0 +1,22 @@
+{
+  "author": "agun <pdc222@nate.com>",
+  "name": "redisq",
+  "description": "This module was implemented redis queue.",
+  "version": "0.0.1",
+  "main": "./RedisQ.js",
+  "scripts":{
+    "test": "expresso test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PROJECT-BIGMAMA/REDISQ.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "devDependencies": {
+    "expresso": "0.9.x",
+    "redis": "0.10.x"
+  }
+}
