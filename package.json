@@ -1,13 +1,13 @@
 {
   "author": "agun <pdc222@nate.com>",
-  "name": "redisq",
+  "name": "redismq",
   "description": "This module was implemented redis queue.",
   "keywords": [
     "redis",
     "message",
     "queue"
   ],
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "./RedisQ.js",
   "scripts":{
     "test": "expresso test/*"
