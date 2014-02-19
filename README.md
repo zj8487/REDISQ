@@ -15,11 +15,11 @@ var redismq = require("redismq");
 
 // You can use base function of node_redis module.
 
-redismp.hset("key", "field", "value");
+redismq.hset("key", "field", "value");
 
 // pubPush (push value + send message )
 
-redisq.pubPush("key name", "push value");
+redismq.pubPush("key name", "push value");
 
 // waitPop (subscribe message + pop value)
 
@@ -29,6 +29,6 @@ var getPubQueueValue = function (err, value){
 
 }
 
-redisq.waitPop("key name", getPubQueueValue);
+redismq.waitPop("key name", getPubQueueValue);
 
 ```
